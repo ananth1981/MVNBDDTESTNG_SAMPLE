@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="32682" started-at="2021-05-30T06:15:29Z" finished-at="2021-05-30T06:16:02Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testrunner.testRunners@5dfcfece]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="32682" started-at="2021-05-30T06:15:29Z" finished-at="2021-05-30T06:16:02Z">
+      <class name="testrunner.testRunners">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testrunner.testRunners@5dfcfece]" name="setUpClass" is-config="true" duration-ms="105" started-at="2021-05-30T06:15:29Z" finished-at="2021-05-30T06:15:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testrunner.testRunners@5dfcfece]" name="runScenario" duration-ms="32509" started-at="2021-05-30T06:15:29Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-30T06:16:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Launch TNEB Portal to know current Month Bill to pay"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["TNEB to know Bill Detail of Monthly- Selenium with BDD"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at stepdefinition.stepDetails.displaying_current_month_eb_bill_details(stepDetails.java:89)
+at ✽.Displaying Current Month EB Bill details(./src/test/java/feature/TNEBbill.feature:10)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testrunner.testRunners@5dfcfece]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2021-05-30T06:16:02Z" finished-at="2021-05-30T06:16:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testrunner.testRunners -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
